@@ -22,4 +22,8 @@ public class Band {
     public int memberCount(){
         return this.musicians.size();
     }
+
+    public void addMember(Musician musician){
+        this.musicians.add(musician);
+    }
 }

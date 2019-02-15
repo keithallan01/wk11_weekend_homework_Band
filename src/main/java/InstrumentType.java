@@ -21,5 +21,6 @@ public enum InstrumentType {
     ACCORDION,
     BANJO,
     MANDOLIN,
-    UKELELE;
+    UKELELE,
+    VOCALS;
 }
