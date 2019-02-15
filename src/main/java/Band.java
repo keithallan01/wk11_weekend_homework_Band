@@ -26,4 +26,8 @@ public class Band {
     public void addMember(Musician musician){
         this.musicians.add(musician);
     }
+
+//    public void canFindMemberByInstrument(){
+//
+//    }
 }

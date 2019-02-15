@@ -9,6 +9,7 @@ public class BandTest {
     Musician musician1;
     Musician musician2;
     Musician musician3;
+    Song song;
 
 
     @Before
@@ -17,6 +18,7 @@ public class BandTest {
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
         musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
         musician3 = new Musician("Rachel Sermani", InstrumentType.VOCALS);
+        song = new Song("Spootiskerry");
     }
 
     @Test
@@ -42,5 +44,17 @@ public class BandTest {
     assertEquals(3, band.memberCount());
     }
 
+    @Test
+    public void canFindMusicianByInstrument(){
+        band.addMember(musician1);
+
+    }
+
+    @Test
+    public void BandCanPlaySong(){
+        band.addMember(musician1);
+        band.addMember(musician2);
+        assertEquals("Spootiskerry", band.playSong());
+    }
 
 }
