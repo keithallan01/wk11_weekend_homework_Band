@@ -13,7 +13,12 @@ public class MusicianTest {
     }
 
     @Test
-    public void hasNAme(){
+    public void hasName(){
         assertEquals("Jimmy Shand", musician.getName());
+    }
+
+    @Test
+    public void hasInstrument(){
+        assertEquals(InstrumentType.ACCORDION, musician.getInstrument());
     }
 }
