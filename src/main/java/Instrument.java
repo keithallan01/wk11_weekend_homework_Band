@@ -1,15 +1,15 @@
 public class Instrument {
-    private String type;
+    private InstrumentType type;
     private String manufacturer;
     private String model;
 
-    public Instrument(String type, String manufacturer, String model) {
+    public Instrument(InstrumentType type, String manufacturer, String model) {
         this.type = type;
         this.manufacturer = manufacturer;
         this.model = model;
     }
 
-    public String getType(){
+    public InstrumentType getType(){
         return this.type;
     }
 
