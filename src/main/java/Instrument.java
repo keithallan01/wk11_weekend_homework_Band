@@ -12,4 +12,8 @@ public class Instrument {
     public String getType(){
         return this.type;
     }
+
+    public String getManufacturer(){
+        return this.manufacturer;
+    }
 }
