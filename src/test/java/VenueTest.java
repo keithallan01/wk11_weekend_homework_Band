@@ -33,10 +33,19 @@ public class VenueTest {
     public void hasCapacity(){
         assertEquals(50, venue.getCapacity());
     }
+
     @Test
     public void venueStartsOffEmpty(){
         assertEquals(0, venue.audienceCount());
     }
 
+    @Test
+    public void venueCanAddPeople(){
+        assertEquals();
+    }
+    @Test
+    public void canAddBand(){
+
+    }
 
 }

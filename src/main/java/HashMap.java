@@ -1,12 +1,17 @@
-//public class HashMap {
-//    public static void main(String[] args) {
-//        HashMap<String, String> songs;
+//import java.util.HashMap;
 //
-//        songs.put("Jimmy Shand Band", "Spookiskerry");
-////        songs.put("Jimmy Shand Band", "Atholl Highlanders");
-////        songs.put("Jimmy Shand Band", "Da Wind in Da Lum");
-////        songs.put("Beirut", "Elephant Gun");
-////        songs.put("Beirut", "Spookiskerry");
-////        songs.put("Jimmy Shand Band", "Spookiskerry");
-////    }
+//public class HashMaps {
+//
+//
+//    public static void main(String[] args) {
+//        HashMap<String, String> members = new HashMap();
+//
+//        members.put("John McCusker", "Fiddler");
+//        members.put("Kris Drever", "Guitarist");
+//        members.put("Rachel Sermani", "vocals");
+//
+//        System.out.println(members.get("John McCusker"));
+//    }
+//
 //}
+
