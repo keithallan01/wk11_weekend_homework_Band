@@ -4,6 +4,7 @@ import org.junit.Test;
 import java.lang.reflect.Member;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class VenueTest {
     Venue venue;
@@ -15,7 +16,7 @@ public class VenueTest {
 
     @Before
     public void before(){
-        venue = new Venue("Sneaky Pete's");
+        venue = new Venue("Sneaky Pete's", 50);
         band = new Band("Jimmy Shand Band", "folk");
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
         musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
@@ -27,4 +28,15 @@ public class VenueTest {
     public void venueHasName(){
         assertEquals("Sneaky Pete's", venue.getName());
     }
+
+    @Test
+    public void hasCapacity(){
+        assertEquals(50, venue.getCapacity());
+    }
+    @Test
+    public void venueStartsOffEmpty(){
+        assertEquals(0, venue.audienceCount());
+    }
+
+
 }
