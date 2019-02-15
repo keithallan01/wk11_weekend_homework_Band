@@ -18,4 +18,8 @@ public class Band {
     public String getGenre(){
         return this.genre;
     }
+
+    public int memberCount(){
+        return this.musicians.size();
+    }
 }

@@ -22,4 +22,10 @@ public class BandTest {
         assertEquals("folk", band.getGenre());
     }
 
+    @Test
+    public void startsOffWithNoMembers(){
+        assertEquals(0, band.memberCount());
+    }
+    
+
 }
