@@ -22,4 +22,9 @@ public class InstrumentTest {
     public void hasManufacturer(){
         assertEquals("Fender", instrument.getManufacturer());
     }
+
+    @Test
+    public void hasModel(){
+        assertEquals("Telecaster", instrument.getModel());
+    }
 }
