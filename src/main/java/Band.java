@@ -30,4 +30,8 @@ public class Band {
 //    public void canFindMemberByInstrument(){
 //
 //    }
+//
+//    public Song playSong(){
+//        return musicians.add();
+//    }
 }

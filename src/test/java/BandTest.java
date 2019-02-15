@@ -50,11 +50,11 @@ public class BandTest {
 
     }
 
-    @Test
-    public void BandCanPlaySong(){
-        band.addMember(musician1);
-        band.addMember(musician2);
-        assertEquals("Spootiskerry", band.playSong());
-    }
+//    @Test
+//    public void BandCanPlaySong(){
+//        band.addMember(musician1);
+//        band.addMember(musician2);
+//        assertEquals("Spootiskerry", band.playSong());
+//    }
 
 }

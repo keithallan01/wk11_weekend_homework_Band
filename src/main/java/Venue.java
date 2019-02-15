@@ -1,7 +1,7 @@
-public class Song {
+public class Venue {
     private String name;
 
-    public Song(String name) {
+    public Venue(String name){
         this.name = name;
     }
 
