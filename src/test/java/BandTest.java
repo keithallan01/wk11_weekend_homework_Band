@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class BandTest {
     Band band;
@@ -12,7 +13,13 @@ public class BandTest {
     }
 
     @Test
-        public void hasName(){
+    public void hasName(){
         assertEquals("Jimmy Shand Band", band.getName());
     }
+
+    @Test
+    public void hasGenre(){
+        assertEquals("folk", band.getGenre());
+    }
+
 }

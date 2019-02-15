@@ -14,4 +14,8 @@ public class Band {
     public String getName(){
         return this.name;
     }
+
+    public String getGenre(){
+        return this.genre;
+    }
 }
