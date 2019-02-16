@@ -4,11 +4,13 @@ public class Venue {
     private String name;
     private int capacity;
     private ArrayList<Person> audience;
+    private ArrayList<Band> bands;
 
     public Venue(String name, int capacity){
         this.name = name;
         this.capacity = capacity;
         this.audience = new ArrayList<>();
+        this.bands = new ArrayList<>();
     }
 
     public String getName(){
@@ -26,5 +28,13 @@ public class Venue {
     public void addPerson(Person person){
         if (audienceCount() < this.capacity)
         audience.add(person);
+    }
+
+    public int bandCount(){
+        return this.bands.size();
+    }
+
+    public void addBand(Band band){
+        bands.add(band);
     }
 }

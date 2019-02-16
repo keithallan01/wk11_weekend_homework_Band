@@ -45,14 +45,20 @@ public class VenueTest {
     public void venueCanAddPeople(){
         venue.addPerson(person);
         venue.addPerson(person);
-        venue.addPerson(person); 
+        venue.addPerson(person);
         venue.addPerson(person);
         assertEquals(3, venue.audienceCount());
     }
 
-//    @Test
-//    public void canAddBand(){
-//
-//    }
+    @Test
+    public void venueStartsOffWithNoBands(){
+        assertEquals(0, venue.bandCount());
+    }
+
+    @Test
+    public void canAddBand(){
+        venue.addBand(band);
+        assertEquals(1, venue.bandCount() );
+    }
 
 }
