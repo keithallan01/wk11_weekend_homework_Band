@@ -1,11 +1,15 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 public class BandTest {
     Band band;
+    Band band2;
     Musician musician1;
     Musician musician2;
     Musician musician3;
@@ -15,6 +19,8 @@ public class BandTest {
     @Before
     public void before(){
         band = new Band("Jimmy Shand Band", "folk");
+        band2 = new Band("Daughter", "Indie");
+
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
         musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
         musician3 = new Musician("Rachel Sermani", InstrumentType.VOCALS);
@@ -45,16 +51,19 @@ public class BandTest {
     }
 
     @Test
-    public void canFindMusicianByInstrument(){
-        band.addMember(musician1);
-
+    public void canLearnSong(){
+        band.addSong(song);
+        assertEquals(1, band.songCount());
     }
 
-//    @Test
-//    public void BandCanPlaySong(){
-//        band.addMember(musician1);
-//        band.addMember(musician2);
-//        assertEquals("Spootiskerry", band.playSong());
-//    }
+    @Test
+    public void BandCanPlaySong(){
+        band.addMember(musician1);
+        band.addSong(song);
+//        HashMap<String, ArrayList<Song>> result = band.playSong();
+        assertEquals("Spootiskerry", band.playSong());
+  }
+
+
 
 }

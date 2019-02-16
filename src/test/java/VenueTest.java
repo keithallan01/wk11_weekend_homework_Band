@@ -20,8 +20,6 @@ public class VenueTest {
         venue = new Venue("Sneaky Pete's", 3);
         band = new Band("Jimmy Shand Band", "folk");
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
-        musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
-        musician3 = new Musician("Rachel Sermani", InstrumentType.VOCALS);
         song = new Song("Spootiskerry");
         person = new Person();
     }
@@ -58,7 +56,7 @@ public class VenueTest {
     @Test
     public void canAddBand(){
         venue.addBand(band);
-        assertEquals(1, venue.bandCount() );
+        assertEquals(1, venue.bandCount());
     }
 
     @Test
@@ -68,6 +66,5 @@ public class VenueTest {
         venue.removePerson();
         assertEquals(0, venue.audienceCount());
     }
-
 
 }
