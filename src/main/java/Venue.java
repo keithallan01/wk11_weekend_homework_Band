@@ -22,4 +22,9 @@ public class Venue {
     public int audienceCount(){
         return this.audience.size();
     }
+
+    public void addPerson(Person person){
+        if (audienceCount() < this.capacity)
+        audience.add(person);
+    }
 }

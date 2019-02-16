@@ -13,15 +13,17 @@ public class VenueTest {
     Musician musician2;
     Musician musician3;
     Song song;
+    Person person;
 
     @Before
     public void before(){
-        venue = new Venue("Sneaky Pete's", 50);
+        venue = new Venue("Sneaky Pete's", 3);
         band = new Band("Jimmy Shand Band", "folk");
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
         musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
         musician3 = new Musician("Rachel Sermani", InstrumentType.VOCALS);
         song = new Song("Spootiskerry");
+        person = new Person();
     }
 
     @Test
@@ -31,7 +33,7 @@ public class VenueTest {
 
     @Test
     public void hasCapacity(){
-        assertEquals(50, venue.getCapacity());
+        assertEquals(3, venue.getCapacity());
     }
 
     @Test
@@ -41,11 +43,16 @@ public class VenueTest {
 
     @Test
     public void venueCanAddPeople(){
-        assertEquals();
+        venue.addPerson(person);
+        venue.addPerson(person);
+        venue.addPerson(person); 
+        venue.addPerson(person);
+        assertEquals(3, venue.audienceCount());
     }
-    @Test
-    public void canAddBand(){
 
-    }
+//    @Test
+//    public void canAddBand(){
+//
+//    }
 
 }

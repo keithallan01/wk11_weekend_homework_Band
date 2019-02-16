@@ -4,7 +4,7 @@
 //
 //
 //    public static void main(String[] args) {
-//        HashMap<String, String> members = new HashMap();
+//        HashMap<Musician, String> members = new HashMap();
 //
 //        members.put("John McCusker", "Fiddler");
 //        members.put("Kris Drever", "Guitarist");
