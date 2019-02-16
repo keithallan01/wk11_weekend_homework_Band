@@ -37,4 +37,8 @@ public class Venue {
     public void addBand(Band band){
         bands.add(band);
     }
+
+    public Person removePerson(){
+        return this.audience.remove(0);
+    }
 }

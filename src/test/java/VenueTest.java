@@ -61,4 +61,13 @@ public class VenueTest {
         assertEquals(1, venue.bandCount() );
     }
 
+    @Test
+    public void canRemovePerson(){
+        venue.addPerson(person);
+        assertEquals(1, venue.audienceCount());
+        venue.removePerson();
+        assertEquals(0, venue.audienceCount());
+    }
+
+
 }
