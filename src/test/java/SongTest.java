@@ -9,11 +9,16 @@ public class SongTest {
 
     @Before
     public void before(){
-       song = new Song("Spootiskerry");
+       song = new Song("Spootiskerry", 3.30);
     }
 
     @Test
     public void hasSong(){
         assertEquals("Spootiskerry", song.getName());
+    }
+
+    @Test
+    public void hasDuration(){
+        assertEquals(3.30, song.getDuration(), 0.01);
     }
 }

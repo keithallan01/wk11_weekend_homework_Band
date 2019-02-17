@@ -20,7 +20,7 @@ public class VenueTest {
         venue = new Venue("Sneaky Pete's", 3);
         band = new Band("Jimmy Shand Band", "folk");
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
-        song = new Song("Spootiskerry");
+        song = new Song("Spootiskerry", 3.30);
         person = new Person();
     }
 

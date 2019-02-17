@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc4ba09e-276c-4dcc-a965-403bf816e2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Band.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Band.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SongTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/VenueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VenueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,22 +32,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6732" />
+          <entry key="java" value="7047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6732" />
+          <entry key="JAVA" value="7047" />
         </counts>
       </usages-collector>
     </session>
@@ -66,17 +66,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+            <state relative-caret-position="-319">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Venue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Band.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="201">
+              <caret line="42" selection-start-line="42" selection-start-column="2" selection-end-line="44" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -84,8 +93,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Song.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SongTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/VenueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -404,15 +431,15 @@
         <option value="$PROJECT_DIR$/src/test/java/MusicianTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Musician.java" />
         <option value="$PROJECT_DIR$/src/main/java/InstrumentType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SongTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Song.java" />
         <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Venue.java" />
         <option value="$PROJECT_DIR$/src/main/java/HashMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/VenueTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Band.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Song.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SongTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VenueTest.java" />
       </list>
     </option>
   </component>
@@ -474,7 +501,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550359323748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550401736486" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -488,14 +515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BandTest.BandCanPlaySong">
-    <configuration name="HashMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMaps" />
-      <module name="Band_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SongTest">
     <configuration name="BandTest.BandCanPlaySong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Band_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -512,6 +532,14 @@
       <option name="MAIN_CLASS_NAME" value="BandTest" />
       <option name="METHOD_NAME" value="canLearnSong" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SongTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Band_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SongTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -536,18 +564,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.VenueTest" />
-      <item itemvalue="Application.HashMaps" />
       <item itemvalue="JUnit.VenueTest.venueCanAddPeople" />
       <item itemvalue="JUnit.BandTest.BandCanPlaySong" />
       <item itemvalue="JUnit.BandTest.canLearnSong" />
+      <item itemvalue="JUnit.SongTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SongTest" />
         <item itemvalue="JUnit.BandTest.BandCanPlaySong" />
         <item itemvalue="JUnit.BandTest.canLearnSong" />
         <item itemvalue="JUnit.VenueTest" />
         <item itemvalue="JUnit.VenueTest.venueCanAddPeople" />
-        <item itemvalue="Application.HashMaps" />
       </list>
     </recent_temporary>
   </component>
@@ -565,9 +593,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VenueTest - 2019.02.15 at 23h 52m 35s.xml">
-      <configuration name="VenueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VenueTest_venueCanAddPeople - 2019.02.16 at 21h 54m 03s.xml">
       <configuration name="VenueTest.venueCanAddPeople" configurationId="JUnit" />
     </history-entry>
@@ -595,6 +620,9 @@
     <history-entry file="BandTest_BandCanPlaySong - 2019.02.16 at 23h 20m 03s.xml">
       <configuration name="BandTest.BandCanPlaySong" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SongTest - 2019.02.17 at 11h 04m 39s.xml">
+      <configuration name="SongTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="726" extended-state="6" />
@@ -611,10 +639,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.329653" />
-      <window_info anchor="bottom" id="Messages" weight="0.329653" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,18 +660,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Band.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../day_4/enums/lab_carderinos/src/main/java/SuitType.java">
@@ -663,13 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SongTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -711,20 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Venue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VenueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Musician.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -732,24 +727,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Band.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="42" selection-start-line="42" selection-start-column="2" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Venue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        <state relative-caret-position="-319">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Song.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Band.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SongTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="117">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VenueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>

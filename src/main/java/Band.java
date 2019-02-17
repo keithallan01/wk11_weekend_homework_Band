@@ -40,7 +40,7 @@ public class Band {
         this.songs.add(song);
     }
 
-    public HashMap<String, ArrayList<Song>> playSong(){
-        return this.playlist;
-    }
+//    public HashMap<String, ArrayList<Song>> playSongByTitle(Song song){
+//        return this.playlist.get(song);
+//    }
 }

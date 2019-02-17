@@ -24,7 +24,7 @@ public class BandTest {
         musician1 = new Musician("Kris Drever", InstrumentType.GUITAR);
         musician2 = new Musician("John McCusker", InstrumentType.VIOLIN);
         musician3 = new Musician("Rachel Sermani", InstrumentType.VOCALS);
-        song = new Song("Spootiskerry");
+        song = new Song("Spootiskerry", 3.30);
     }
 
     @Test
@@ -56,13 +56,13 @@ public class BandTest {
         assertEquals(1, band.songCount());
     }
 
-    @Test
-    public void BandCanPlaySong(){
-        band.addMember(musician1);
-        band.addSong(song);
-//        HashMap<String, ArrayList<Song>> result = band.playSong();
-        assertEquals("Spootiskerry", band.playSong());
-  }
+//    @Test
+//    public void BandCanPlaySongByTitle(){
+//        band.addMember(musician1);
+//        band.addSong(song);
+////        HashMap<String, ArrayList<Song>> result = band.playSong();
+//        assertEquals("Spootiskerry", band.playSongByTitle());
+//  }
 
 
 
